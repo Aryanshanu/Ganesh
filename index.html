@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ganesh Kumar | Responsible AI Engineer</title>
+    <meta name="description" content="Ganesh Kumar — Responsible AI Scientist, AI Governance, ISO/IEC 42001 Contributor, Hyderabad, India." />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Source+Code+Pro:wght@400;500&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'light-bg': '#F0F2F5',
+              'light-card': '#FFFFFF',
+              'light-text': '#050505',
+              'light-secondary': '#65676B',
+              'light-border': '#CED0D4',
+              'dark-bg': '#18191A',
+              'dark-card': '#242526',
+              'dark-text': '#E4E6EB',
+              'dark-secondary': '#B0B3B8',
+              'dark-border': '#3E4042',
+              'accent-blue': '#1877F2',
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              heading: ['Space Grotesk', 'sans-serif'],
+              mono: ['Source Code Pro', 'monospace'],
+            },
+            animation: {
+              'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
+            },
+            keyframes: {
+              fadeInUp: {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      .animate-on-scroll {
+        opacity: 0;
+        animation-fill-mode: forwards;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
